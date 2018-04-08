@@ -41,7 +41,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // The user clicked the button, do the calculations here
-                firstAmount = Double.parseDouble(inputCurrency.getText().toString());
+                try {
+                    firstAmount = Double.parseDouble(inputCurrency.getText().toString());
+                } catch (Exception e) {
+                    firstAmount = 0;
+                    Toast.makeText(MainActivity.this, "No Value Entered Yet!", Toast.LENGTH_LONG).show();
+                }
 
                 // Set the starting amount
                 switch(inputCurrencySelector.getSelectedItem().toString()) {

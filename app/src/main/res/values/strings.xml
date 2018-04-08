@@ -3,6 +3,7 @@
     <string name="lbl_btn_convert">Convert Currency</string>
     <string name="input_tip">Enter Starting value</string>
     <string name="output_tip">Final Amount</string>
+    <string name="disclaimer">*Disclaimer: Conversion values change frequently, use as reference only.*</string>
     <string-array name="arr_currency">
         <item>USD</item>
         <item>Euro</item>

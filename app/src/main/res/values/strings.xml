@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="lbl_btn_convert">Convert Currency</string>
+    <string name="input_tip">Enter Starting value</string>
+    <string name="output_tip">Final Amount</string>
+    <string-array name="arr_currency">
+        <item>USD</item>
+        <item>Euro</item>
+        <item>GBP</item>
+        <item>Peso (MXN)</item>
+        <item>YEN</item>
+    </string-array>
+</resources>
